@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-button">
+        <h1>Super Calculadora</h1>
+        <button type="button" class="button"  onclick="calcular()">Calcular</button>
+        </div>
+
+    <div class="container-input">
+        <label for="inputA">Primeiro número (A)</label>
+        <input type="number" name="inputA" value="0" class="input" id="inputA">
+        <Label for="inputB">Segundo número (B)</Label>
+        <input type="number" name="inputB" value="0" class="input" id="inputB">
+        
+    </div>
+
+    </header>
+
+    <main>
+        
+
+        <section class=" container-resultados">
+
+            <div class="item">
+                <h3> A + B</h3>
+                <p id="soma" class="resultado"> - </p>
+            </div>
+            <div class="item">
+                <h3>  A - B</h3>
+                <p id="subtracaoAB" class="resultado">- </p>
+            </div>
+            <div class="item">
+                <h3>  B - A</h3>
+                <p id="subtracaoBA" class="resultado">- </p>
+            </div>
+        </section>
+
+        <section class=" container-resultados">
+
+            <div class="item">
+                <h3> A * B</h3>
+                <p id="multiplicacao" class="resultado"> -</p>
+            </div>
+            <div class="item">
+                <h3>  A / B</h3>
+                <p id="divisaoAB" class="resultado"> -</p>
+            </div>
+            <div class="item">
+                <h3>  B / A</h3>
+                <p id="divisaoBA" class="resultado"> -</p>
+            </div>
+        </section>
+
+        <section class=" container-resultados">
+
+            <div class="item">
+                <h3> A ** B </h3>
+                <p id="potenciaAB" class="resultado"> -</p>
+            </div>
+            <div class="item">
+                <h3>  B ** A</h3>
+                <p id="potenciaBA" class="resultado">- </p>
+            </div>
+            <div class="item">
+                <h3> Raiz quadrada de A</h3>
+                <p id="raizA" class="resultado">- </p>
+            </div>
+        </section>
+
+        <section class=" container-resultados">
+            <div class="item">
+                <h3> Raiz quadrada de B</h3>
+                <p id="raizB" class="resultado"> -</p>
+            </div>
+            <div class="item">
+                <h3> A!</h3>
+                <p id="fatorialA" class="resultado"> -</p>
+            </div>
+            <div class="item">
+                <h3> B!</h3>
+                <p id="fatorialB" class="resultado">- </p>
+            </div>
+        </section>
+
+        <section class=" container-resultados">
+            <div class="item">
+                <h3> % de A em relação ao B</h3>
+                <p id="porcentagemAB" class="resultado">-</p>
+            </div>
+            <div class="item">
+                <h3> % de B em relação ao A</h3>
+                <p id="porcentagemBA" class="resultado">-</p>
+            </div>
+            <div class="item">
+                <h3> Média</h3>
+                <p id="media" class="resultado">- </p>
+            </div>
+        </section>
+
+    </main>
+    <script src="calculadora.js"></script>
+
+</body>
+</html>
